@@ -1,3 +1,5 @@
+//OPDRACHT A
+
 const superheroes = [
     {name: "Batman", alter_ego: "Bruce Wayne"}, 
     {name: "Superman", alter_ego: "Clark Kent"}, 
@@ -11,3 +13,31 @@ const superheroes = [
     console.log(superheroes.find(findSpiderMan)) 
     // Find Spiderman
     // result should be: {name: "Spiderman", alter_ego: "Peter Parker"}
+
+
+    //OPDRACHT B.foreach
+    // doubleArrayValues([1, 2, 3]) 
+
+    const array = [1,2,3]
+    let newArray = []
+
+    array.forEach((item) => {
+        newArray.push(item * 2)
+    })
+
+    console.log(newArray)
+
+    newArray = []
+
+    function doubleArrayValues(array){
+        array.forEach((item, index, arr) => {
+            newArray.push(item * 2)
+                })
+           
+           console.log(newArray)
+        }
+    
+    console.log(doubleArrayValues([1, 2, 3]))
+    
+    
+    // result should be [2, 4, 6]
