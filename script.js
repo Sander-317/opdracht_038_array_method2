@@ -54,41 +54,25 @@ const superheroes = [
 
     //OPDRACHT C
 
+    function containsNumberBiggerThan10(array) {
+        console.log("Opdracht C")
+        console.log(array.includes(11 ))
+    }
+
     
-    // let filteredArray = false
-
-    // function containsNumberBiggerThan10(array) {
-        // let filterdArray =  
-        // array.filter((callbackFn) => { 
-            // item > 10
-            //  if (item > 10)
-        //         filteredArray = true     
-        // return filteredArray
-            //  else
-            //   filteredArray = false
-            //     return filteredArray
-        // })
-        // return 
-    // }
-// console.log(containsNumberBiggerThan10([1, 4, 3, 6, 9, 7, 11]))
-// console.log(containsNumberBiggerThan10([1,2,1,2,1,2]))
-
-
-// containsNumberBiggerThan10([1, 4, 3, 6, 9, 7, 11]) 
-
-// console.log(filteredArray)
+    containsNumberBiggerThan10([1, 4, 3, 6, 9, 7, 11]) 
   // result should be true
-//   containsNumberBiggerThan10([1,2,1,2,1,2])
+  containsNumberBiggerThan10([1,2,1,2,1,2])
   // result should be false
-//   console.log(filteredArray)
 
-//OPDRACHT D
+   //OPDRACHT D
 
 function isItalyInTheGreat7(array) {
     console.log("Opdracht D:")
     console.log(array.includes('Italy'))
     }
 isItalyInTheGreat7(['Canada', 'France','Germany','Italy','Japan','United Kingdom','United States']) 
+isItalyInTheGreat7(['Canada', 'France','Germany','Japan','United Kingdom','United States']) 
 
 // result should be true
 
