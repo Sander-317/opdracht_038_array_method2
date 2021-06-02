@@ -18,10 +18,10 @@ const superheroes = [
     //OPDRACHT B.foreach
     // doubleArrayValues([1, 2, 3]) 
 
-    const array = [1,2,3]
+    const arrayOld = [1,2,3]
     let newArray = []
 
-    array.forEach((item) => {
+    arrayOld.forEach((item) => {
         newArray.push(item * 2)
     })
 
@@ -34,10 +34,12 @@ const superheroes = [
             newArray.push(item * 2)
                 })
            
-           console.log(newArray)
+        //    console.log(newArray)
+           return newArray
         }
     
     console.log(doubleArrayValues([1, 2, 3]))
     
     
     // result should be [2, 4, 6]
+
