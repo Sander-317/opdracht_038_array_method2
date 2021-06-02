@@ -84,4 +84,12 @@ const superheroes = [
 
 //OPDRACHT D
 
+function isItalyInTheGreat7(array) {
+    console.log("Opdracht D:")
+    console.log(array.includes('Italy'))
+    }
+isItalyInTheGreat7(['Canada', 'France','Germany','Italy','Japan','United Kingdom','United States']) 
+
+// result should be true
+
 
