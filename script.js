@@ -43,3 +43,11 @@ const superheroes = [
     
     // result should be [2, 4, 6]
 
+    //OPDRACHT B.map 
+
+    function doubleArrayValues2(array) {
+        let newArray2 = array.map(x => x* 2)
+        return newArray2
+    }
+
+    console.log(doubleArrayValues2([1, 2, 3]))
