@@ -76,4 +76,34 @@ isItalyInTheGreat7(['Canada', 'France','Germany','Japan','United Kingdom','Unite
 
 // result should be true
 
+//OPDRACHT E.forEach
+
+newArray = []
+
+function tenfold(array){
+    array.forEach((item, index, arr) => {
+        newArray.push(item * 10)
+            })
+       
+    //    console.log(newArray)
+       return newArray
+    }
+console.log("Opdracht E.forEach:")
+console.log(tenfold([1, 4, 3, 6, 9, 7, 11]))
+// result should be [10, 40, 30, 60, 90, 70, 110]
+
+//OPDRACHT E.map
+
+function tenfold2(array) {
+    let newArray2 = array.map(x => x* 10)
+    return newArray2
+}
+
+console.log("Opdracht E.map:")
+console.log(tenfold2([1, 4, 3, 6, 9, 7, 11]))
+// result should be [10, 40, 30, 60, 90, 70, 110]
+
+
+
+
 
