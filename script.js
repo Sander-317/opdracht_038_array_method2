@@ -107,12 +107,16 @@ console.log(tenfold2([1, 4, 3, 6, 9, 7, 11]))
 
 //OPDRACHT F       
 
-const isBelow100 =  element => element < 100
+function isBelow100(array) {
+    return array.every(number => {
+      return number < 100;
+    });
+  }
 
 console.log("Opdracht F:")
 console.log(isBelow100([1, 81, 4, 53, 3, 6, 79, 2, 43, 7, 28, 101, 11, 77, 84, 98 ]))
 // result should be: false
-
+console.log(isBelow100([1, 81, 4, 53, 3, 6, 79, 2, 43, 7, 28,  11, 77, 84, 98 ]))
 //OPDRACHT G bonus
 
 function bigSum(array) {
