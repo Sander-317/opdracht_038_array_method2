@@ -55,8 +55,9 @@ const superheroes = [
     //OPDRACHT C
 
     function containsNumberBiggerThan10(array) {
+        const biggerThanTen =  element => element  > 10;
         console.log("Opdracht C")
-        console.log(array.includes(11 ))
+        console.log(array.some(biggerThanTen))
     }
 
     
