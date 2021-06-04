@@ -86,7 +86,7 @@ function tenfold(array){
         newArray.push(item * 10)
             })
        
-    //    console.log(newArray)
+    
        return newArray
     }
 console.log("Opdracht E.forEach:")
@@ -105,6 +105,8 @@ console.log(tenfold2([1, 4, 3, 6, 9, 7, 11]))
 // result should be [10, 40, 30, 60, 90, 70, 110]
 
 
+//OPDRACHT F       
 
-
-
+const isBelow100 =  element => element < 100
+console.log(isBelow100([1, 81, 4, 53, 3, 6, 79, 2, 43, 7, 28, 101, 11, 77, 84, 98 ]))
+// result should be: false
